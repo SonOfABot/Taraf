@@ -395,9 +395,8 @@ sudo ./taraf.sh --nmap-file internal.nmap --recon-mode internal
 
 ## Disclaimer
 
-taraf is an offensive security tool intended for **authorized** penetration tests, bug bounty programs, and red team engagements only. Active phases send non-trivial traffic; dirbrute, vhost fuzzing, and default-credential checks can trip WAFs, lock accounts, and generate logs. Always:
+taraf is an offensive security tool intended for **authorized** penetration tests, bug bounty programs and internal pentests engagements mainly. Active phases send non-trivial traffic; dirbrute, vhost fuzzing, and default-credential checks can trip WAFs, lock accounts, and generate logs. Always:
 
-- have written authorization covering every target in scope,
 - respect program rules of engagement (rate limits, excluded tests),
 - start with `--dry-run` and conservative rates on unfamiliar infrastructure.
 
