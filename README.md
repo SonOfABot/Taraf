@@ -117,8 +117,7 @@ Go tools are resolved from `~/go/bin` first (override with `--tool-prefix`), the
 sudo ./taraf.sh --nmap-file scan.nmap --recon-mode internal
 
 # Web-only, authenticated, resumable
-./taraf.sh --file urls.txt --recon-mode web \
-    --auth-cookie "PHPSESSID=abc123" --resume
+./taraf.sh --file urls.txt --recon-mode web --auth-cookie "PHPSESSID=abc123" --resume
 ```
 
 Input files accept mixed content — IPs, CIDRs, domains, `host:port`, full URLs, blank lines and `# comments`:
