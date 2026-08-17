@@ -1,6 +1,8 @@
 # Taraf
 Taraf is a coalition of Enumeration tools, nothing new or novel, I was just too stressed to always know what tool to use on a pentest engagement, so this is more like run and forget enum script
 
+<img width="1230" height="772" alt="image" src="https://github.com/user-attachments/assets/ee7e78b6-0989-40fe-92a6-ae5e9ba4c452" />
+
 > **map the edge**: attack surface enumeration pipeline
 
 `taraf` is a single file bash orchestrator that chains the ProjectDiscovery stack (subfinder, dnsx, naabu, httpx, nuclei, tlsx, …) together with ffuf, nmap, WhatWeb, dalfox, gowitness and friends into one resumable, scope aware recon pipeline.
